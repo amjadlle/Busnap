@@ -25,5 +25,20 @@
   <body class="bg-[#0c1410] text-[#E8F2EC] font-sans antialiased selection:bg-[#1DB56A]/25 selection:text-[#1DB56A] overflow-x-hidden min-h-screen">
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
+
+    <!-- 💬 BusNap AI Chatbot (Powered by ZeroRoute) -->
+    <script 
+      src="https://zeroroute.mapki.in/widget.js" 
+      data-endpoint="https://zeroroute.mapki.in"
+      data-title="BusNap AI"
+      data-avatar="/logo.png"
+      data-color="#1DB56A"
+      data-greeting="Hey! 🚌 Welcome to BusNap. Ask me how our GPS alarm keeps you from missing your bus stop!"
+      data-prompts="How does the location alarm work?,Does it drain my battery?,Can it work in the background?,Is it free to download?"
+      data-persona="You are BusNap AI, the assistant for BusNap — the smart GPS-based alarm app that wakes you up before reaching your destination."
+      data-knowledge-url="/knowledge.md"
+      data-knowledge="BusNap Features: Location-based GPS wake-up alarm, progressive multi-stage alarms (5km, 2km, 1km), background monitoring with foreground service, 100% on-device privacy (no accounts, no tracking), battery efficiency (<1% drain), custom alarm sounds (MP3/WAV/OGG), OpenStreetMap road distance calculation via Nominatim/Valhalla/OSRM, works on buses and trains. Available on Google Play Store."
+      defer>
+    </script>
   </body>
 </html>
